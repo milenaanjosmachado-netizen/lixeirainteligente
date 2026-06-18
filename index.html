@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoConsciência - Futuro Sustentável</title>
+    <style>
+        /* Configurações Globais da Página */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2d3748;
+            line-height: 1.6;
+            background-color: #f4f7f5;
+        }
+
+        /* Container principal para centralizar o site */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Banner de Cabeçalho Superior */
+        .header-banner {
+            padding: 40px 20px;
+            background-color: #1b4332;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 28pt;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 10px 0 0 0;
+            font-size: 13pt;
+            color: #b7e4c7;
+            font-style: italic;
+        }
+
+        /* Estrutura das Seções */
+        h2 {
+            font-size: 18pt;
+            color: #1b4332;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #40916c;
+        }
+
+        h3 {
+            font-size: 14pt;
+            color: #2d6a4f;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        /* Callouts / Blocos de Destaque de Perigo */
+        .alert-box {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .alert-box p {
+            margin: 0;
+            color: #856404;
+            font-weight: bold;
+        }
+
+        /* Tabelas Estilizadas para a Coleta Seletiva */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 11pt;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        th {
+            background-color: #2d6a4f;
+            color: white;
+            font-weight: bold;
+            text-align: left;
+            padding: 12px;
+            border: 1px solid #2d6a4f;
+        }
+
+        td {
+            padding: 12px;
+            border: 1px solid #d8f3dc;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8f9fa;
+        }
+
+        /* Indicadores de cores da reciclagem */
+        .color-box {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            margin-right: 8px;
+            vertical-align: middle;
+            border-radius: 3px;
+        }
+        .bg-azul { background-color: #0056b3; }
+        .bg-vermelho { background-color: #dc3545; }
+        .bg-verde { background-color: #28a745; }
+        .bg-amarelo { background-color: #ffc107; }
+        .bg-marrom { background-color: #795548; }
+
+        /* Lista de Ações */
+        .action-list {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+
+        .action-list li {
+            margin-bottom: 10px;
+        }
+
+        .action-list strong {
+            color: #1b4332;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-banner">
+            <h1>EcoConsciência</h1>
+            <p>Poluição, Descarte Correto e a Preservação do nosso Planeta</p>
+        </div>
+
+        <h2>1. O Cenário Atual da Poluição Global</h2>
+        <p>
+            A poluição ambiental tornou-se uma das maiores crises da era moderna. O crescimento industrial acelerado, o consumo desenfreado e a falta de gestão adequada dos resíduos sólidos estão degradando os ecossistemas terrestres e aquáticos em uma velocidade sem precedentes.
+        </p>
+        <p>
+            Bilhões de toneladas de resíduos são descartadas anualmente de forma inadequada. O plástico, em especial, fragmenta-se em microplásticos que contaminam desde as fossas oceânicas mais profundas até os alimentos e a água que consumimos diariamente.
+        </p>
+
+        <div class="alert-box">
+            <p>⚠️ Alerta Global: Estima-se que, se o ritmo atual de poluição continuar, os oceanos poderão conter mais plástico do que peixes em peso até o ano de 2050.</p>
+        </div>
+
+        <h2>2. Guia de Descarte Correto (Coleta Seletiva)</h2>
+        <p>
+            Separar os resíduos na origem é a forma mais simples e eficaz de garantir a reciclagem e diminuir a pressão sobre os aterros sanitários. Abaixo está o padrão internacional de cores para a destinação correta de cada material:
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 25%;">Material / Cor</th>
+                    <th style="width: 40%;">O que descartar aqui?</th>
+                    <th style="width: 35%;">O que NÃO descartar?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="color-box bg-azul"></span> <strong>Azul (Papel)</strong></td>
+                    <td>Jornais, revistas, caixas de papelão, folhas de caderno, papéis impressos.</td>
+                    <td>Papel higiênico, guardanapos sujos, fitas adesivas, papel carbono.</td>
+                </tr>
+                <tr>
+                    <td><span class="color-box bg-vermelho"></span> <strong>Vermelho (Plástico)</strong></td>
+                    <td>Garrafas PET, embalagens de alimentos, sacolas plásticas, potes de plástico.</td>
+                    <td>Embalagens metalizadas (como salgadinhos), cabos de panela, tomadas.</td>
+                </tr>
+                <tr>
+                    <td><span class="color-box bg-verde"></span> <strong>Verde (Vidro)</strong></td>
+                    <td>Garrafas de vidro, potes de conserva, frascos de medicamentos vazios.</td>
+                    <td>Espelhos, cristais, lâmpadas, tubos de TV, cerâmicas e porcelanas.</td>
+                </tr>
+                <tr>
+                    <td><span class="color-box bg-amarelo"></span> <strong>Amarelo (Metal)</strong></td>
+                    <td>Latinas de alumínio (bebidas), latas de aço (conservas), pregos, parafusos.</td>
+                    <td>Latas de tinta, latas de aerosol com resíduo, pilhas e baterias.</td>
+                </tr>
+                <tr>
+                    <td><span class="color-box bg-marrom"></span> <strong>Marrom (Orgânico)</strong></td>
+                    <td>Restos de alimentos, cascas de frutas e legumes, pó de café, folhas secas.</td>
+                    <td>Lixo cirúrgico, dejetos de animais de estimação, produtos químicos.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>3. Como Conscientizar e Agir na Prática</h2>
+        <p>
+            A mudança real começa com pequenas alterações no cotidiano de cada indivíduo. Reduzir a geração de resíduos é sempre a prioridade mais alta, seguida pelo reuso e, finalmente, pela reciclagem.
+        </p>
+        
+        <h3>A Regra dos 3R's da Sustentabilidade</h3>
+        <ul class="action-list">
+            <li><strong>Reduzir:</strong> Evite o consumo de produtos desnecessários. Prefira mercadorias com menos embalagens ou que utilizem materiais biodegradáveis.</li>
+            <li><strong>Reutilizar:</strong> Dê uma nova vida útil aos objetos antes de descartá-los. Potes de vidro podem virar organizadores; roupas antigas podem se transformar em panos de limpeza.</li>
+            <li><strong>Reciclar:</strong> Destine o material limpo para as cooperativas de reciclagem ou para os pontos de entrega voluntária (PEV) da sua cidade.</li>
+        </ul>
+
+        <h3>Atenção aos Resíduos Especiais</h3>
+        <p>
+            Materiais como <strong>pilhas, baterias, eletroeletrônicos e óleo de cozinha usado</strong> nunca devem ser jogados no lixo comum ou na pia. Eles contêm metais pesados e substâncias químicas que contaminam gravemente o lençol freático. Busque pontos de logística reversa em supermercados ou lojas de eletrônicos para o descarte seguro.
+        </p>
+    </div>
+
+</body>
+</html>
